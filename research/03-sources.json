@@ -1,0 +1,202 @@
+{
+  "snapshot": "2026-11-06",
+  "author_scope": "Shadow leveling and Shadow/Holy PvP",
+  "sources": [
+    {
+      "id": "S01",
+      "description": "WoW Forever DB, Priest talent calculator, claimed client 1.60.1.70790: https://wowfdb.com/talents/priest/ . Useful for rows, ranks and prerequisites. **Known stale field:** active Binding Heal; official November2 changes override it.",
+      "urls": [
+        "https://wowfdb.com/talents/priest/"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "S02",
+      "description": "Classic WoW Forever, Priest calculator: https://classicwowforever.com/talents/priest/ . Independent layout comparison; older build than S01.",
+      "urls": [
+        "https://classicwowforever.com/talents/priest/"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "S03",
+      "description": "Wowhead, Shadow stat guide: https://www.wowhead.com/forever/guide/classes/priest/shadow/stat-priority-pve-dps . Explicitly speculative endgame weights; supports 17% planning figure and crit interpretation.",
+      "urls": [
+        "https://www.wowhead.com/forever/guide/classes/priest/shadow/stat-priority-pve-dps"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "S04",
+      "description": "Blizzard, updated November2 development notes: https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696 . Official changes govern over conflicting fan tooltips.",
+      "urls": [
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "S05",
+      "description": "Blizzard, Priest and Warrior class deep dive: https://worldofwarcraft.blizzard.com/en-gb/news/24301514/world-of-warcraft-forever-klassen%C3%BCbersicht-priester-und-krieger . Official shared Priest spell milestones; verified in the systems chapter\u2019s retrieval.",
+      "urls": [
+        "https://worldofwarcraft.blizzard.com/en-gb/news/24301514/world-of-warcraft-forever-klassen%C3%BCbersicht-priester-und-krieger"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "S06",
+      "description": "Human racial verification cross-referenced to systems chapter and official development notes; current Divine Grace spell data: https://www.wowhead.com/forever/spell=1277370/divine-grace . Do not silently resolve official older5min versus current10min cooldown discrepancy.",
+      "urls": [
+        "https://www.wowhead.com/forever/spell=1277370/divine-grace"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "S07",
+      "description": "Wowhead, Shadow leveling, updated November6: https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips . Supports continuous Shadow/wand route and delayed capstone.",
+      "urls": [
+        "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "S08",
+      "description": "Icy Veins, Shadow leveling: https://www.icy-veins.com/wow-forever/shadow-priest-leveling . Supports wand, sustain and channel milestones; not proof of fixed endgame optimization.",
+      "urls": [
+        "https://www.icy-veins.com/wow-forever/shadow-priest-leveling"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "S09",
+      "description": "Forever Upgrades, level1\u201330 route: https://foreverupgrades.com/news-article.html?a=wow-forever-leveling-guide-1-30 . Geographic corroboration, not adopted as a verbatim quest script.",
+      "urls": [
+        "https://foreverupgrades.com/news-article.html?a=wow-forever-leveling-guide-1-30"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "S10",
+      "description": "Icy Veins, Priest class quests, November4: https://www.icy-veins.com/wow-forever/priest-class-quests . Human early garment quest, Divine Grace and Arcane Feedback destinations.",
+      "urls": [
+        "https://www.icy-veins.com/wow-forever/priest-class-quests"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "S11",
+      "description": "PC Gamer, The Great Outdoors: https://www.pcgamer.com/games/world-of-warcraft/forever-the-great-outdoors-sit-campfire/ ; Human quest listing: https://router.noobhour.gg/alliance/human/priest/quests . Limited early camping instructions.",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/forever-the-great-outdoors-sit-campfire/",
+        "https://router.noobhour.gg/alliance/human/priest/quests"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "S12",
+      "description": "Zockify, wand progression: https://www.zockify.com/forever/wand-progression/ . Item comparison anchors.",
+      "urls": [
+        "https://www.zockify.com/forever/wand-progression/"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "S13",
+      "description": "Method, weapons1\u201330: https://www.method.gg/wow-forever/the-best-weapons-in-wow-forever-from-levels-1-30 . Wand equip levels and sources; faction discrepancy cautions retained.",
+      "urls": [
+        "https://www.method.gg/wow-forever/the-best-weapons-in-wow-forever-from-levels-1-30"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "S14",
+      "description": "Mobalytics, Shadow guide: https://mobalytics.gg/wow-forever/classes/shadow-priest-guide . Current hit/crit comparison, not a guaranteed optimal stat-weight claim.",
+      "urls": [
+        "https://mobalytics.gg/wow-forever/classes/shadow-priest-guide"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "S15",
+      "description": "WoW Forever Outpost, PvP and podcast tracking: https://www.wofwforever.com/en/guides/wow-forever-pvp-battlegrounds-honor/ ; https://www.wofwforever.com/en/updates/ . No announced Burning Crusade-style arena mode in reviewed material; do not infer nonexistence forever.",
+      "urls": [
+        "https://www.wofwforever.com/en/guides/wow-forever-pvp-battlegrounds-honor/",
+        "https://www.wofwforever.com/en/updates/"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "S16",
+      "description": "Blizzard, Darkspear Islands: https://news.blizzard.com/en-gb/article/24307308/battle-for-the-darkspear-islands-in-world-of-warcraft-forever . Official map objectives, level range, queue description and reputation structure.",
+      "urls": [
+        "https://news.blizzard.com/en-gb/article/24307308/battle-for-the-darkspear-islands-in-world-of-warcraft-forever"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "S17",
+      "description": "Wowhead, Shadow builds: https://www.wowhead.com/forever/guide/classes/priest/shadow/talent-builds-pve-dps . Context for PvP control, optional sustain, and speculative raid optimization. The allocations in this chapter are independently constructed.",
+      "urls": [
+        "https://www.wowhead.com/forever/guide/classes/priest/shadow/talent-builds-pve-dps"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Published sources; not personally tested in live game"
+    },
+    {
+      "id": "pvp-official-progression",
+      "description": "Official Honor, RankPoints, rankreward ladder and bluepiece+EmboldenedSeal upgrade requirements",
+      "urls": [
+        "https://news.blizzard.com/en-us/article/24303316/how-pvp-progression-in-world-of-warcraft-forever-works"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Official retrieved fulltext"
+    },
+    {
+      "id": "pvp-client-rank-data",
+      "description": "Client-derived cumulative rankthresholds, rising season ceilings, current25,000Honor storage and Priestset names. Explicitly data-derived, not live personally observed",
+      "urls": [
+        "https://www.60.tools/guides/pvp-ranks"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Currentbuild70790 secondary database"
+    },
+    {
+      "id": "pvp-icy-rank-table",
+      "description": "Independent rankpoint table and datamined weeklyceiling corroboration; stale15,000Honor cap deliberately NOT used",
+      "urls": [
+        "https://www.icy-veins.com/wow-forever/pvp-rank-system"
+      ],
+      "accessed": "2026-11-06",
+      "verification": "Secondary early-beta, only corroborated rank tables adopted"
+    }
+  ],
+  "known_conflicts": [
+    {
+      "claim": "Binding Heal active vs Holy Binding passive",
+      "resolution": "Official November 2 notes remove Binding Heal and add Holy Binding; override stale calculator."
+    },
+    {
+      "claim": "Divine Grace cooldown 5min vs 10min",
+      "resolution": "Official older class post says5min; current spell database10min; use live tooltip, conservative10min elsewhere."
+    },
+    {
+      "claim": "16 vs17 percent raid spell hit",
+      "resolution": "Current Shadow guides favor17 total; explicitly theorycraft, not personally tested."
+    }
+  ]
+}

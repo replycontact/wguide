@@ -1,0 +1,6 @@
+Markdown==3.11.3
+beautifulsoup4==4.15.0
+reportlab==4.4.9
+pypdf==6.10.0
+PyMuPDF==1.26.6
+Pillow==13.0.0

@@ -1,0 +1,794 @@
+{
+  "solo14/0/37": {
+    "total": {
+      "D": 14,
+      "S": 37
+    },
+    "valid": true,
+    "steps": [
+      {
+        "level": 10,
+        "talent": "Wand",
+        "rank": 1
+      },
+      {
+        "level": 11,
+        "talent": "Wand",
+        "rank": 2
+      },
+      {
+        "level": 12,
+        "talent": "Tap",
+        "rank": 1
+      },
+      {
+        "level": 13,
+        "talent": "Tap",
+        "rank": 2
+      },
+      {
+        "level": 14,
+        "talent": "Tap",
+        "rank": 3
+      },
+      {
+        "level": 15,
+        "talent": "Tap",
+        "rank": 4
+      },
+      {
+        "level": 16,
+        "talent": "Tap",
+        "rank": 5
+      },
+      {
+        "level": 17,
+        "talent": "Pain",
+        "rank": 1
+      },
+      {
+        "level": 18,
+        "talent": "Pain",
+        "rank": 2
+      },
+      {
+        "level": 19,
+        "talent": "Reach",
+        "rank": 1
+      },
+      {
+        "level": 20,
+        "talent": "Reach",
+        "rank": 2
+      },
+      {
+        "level": 21,
+        "talent": "Focus",
+        "rank": 1
+      },
+      {
+        "level": 22,
+        "talent": "Flay",
+        "rank": 1
+      },
+      {
+        "level": 23,
+        "talent": "ImpFlay",
+        "rank": 1
+      },
+      {
+        "level": 24,
+        "talent": "ImpFlay",
+        "rank": 2
+      },
+      {
+        "level": 25,
+        "talent": "Focus",
+        "rank": 2
+      },
+      {
+        "level": 26,
+        "talent": "Focus",
+        "rank": 3
+      },
+      {
+        "level": 27,
+        "talent": "VE",
+        "rank": 1
+      },
+      {
+        "level": 28,
+        "talent": "Weaving",
+        "rank": 1
+      },
+      {
+        "level": 29,
+        "talent": "Weaving",
+        "rank": 2
+      },
+      {
+        "level": 30,
+        "talent": "Weaving",
+        "rank": 3
+      },
+      {
+        "level": 31,
+        "talent": "Inspiration",
+        "rank": 1
+      },
+      {
+        "level": 32,
+        "talent": "Contagion",
+        "rank": 1
+      },
+      {
+        "level": 33,
+        "talent": "Contagion",
+        "rank": 2
+      },
+      {
+        "level": 34,
+        "talent": "Silence",
+        "rank": 1
+      },
+      {
+        "level": 35,
+        "talent": "Blast",
+        "rank": 1
+      },
+      {
+        "level": 36,
+        "talent": "Blast",
+        "rank": 2
+      },
+      {
+        "level": 37,
+        "talent": "Darkness",
+        "rank": 1
+      },
+      {
+        "level": 38,
+        "talent": "Darkness",
+        "rank": 2
+      },
+      {
+        "level": 39,
+        "talent": "Darkness",
+        "rank": 3
+      },
+      {
+        "level": 40,
+        "talent": "Darkness",
+        "rank": 4
+      },
+      {
+        "level": 41,
+        "talent": "Darkness",
+        "rank": 5
+      },
+      {
+        "level": 42,
+        "talent": "Form",
+        "rank": 1
+      },
+      {
+        "level": 43,
+        "talent": "Twin",
+        "rank": 1
+      },
+      {
+        "level": 44,
+        "talent": "Twin",
+        "rank": 2
+      },
+      {
+        "level": 45,
+        "talent": "Twin",
+        "rank": 3
+      },
+      {
+        "level": 46,
+        "talent": "Twin",
+        "rank": 4
+      },
+      {
+        "level": 47,
+        "talent": "Twin",
+        "rank": 5
+      },
+      {
+        "level": 48,
+        "talent": "Silent",
+        "rank": 1
+      },
+      {
+        "level": 49,
+        "talent": "Silent",
+        "rank": 2
+      },
+      {
+        "level": 50,
+        "talent": "Silent",
+        "rank": 3
+      },
+      {
+        "level": 51,
+        "talent": "Meditation",
+        "rank": 1
+      },
+      {
+        "level": 52,
+        "talent": "Meditation",
+        "rank": 2
+      },
+      {
+        "level": 53,
+        "talent": "Meditation",
+        "rank": 3
+      },
+      {
+        "level": 54,
+        "talent": "Inner",
+        "rank": 1
+      },
+      {
+        "level": 55,
+        "talent": "Focus",
+        "rank": 4
+      },
+      {
+        "level": 56,
+        "talent": "Focus",
+        "rank": 5
+      },
+      {
+        "level": 57,
+        "talent": "Blast",
+        "rank": 3
+      },
+      {
+        "level": 58,
+        "talent": "Blast",
+        "rank": 4
+      },
+      {
+        "level": 59,
+        "talent": "Blast",
+        "rank": 5
+      },
+      {
+        "level": 60,
+        "talent": "Inspiration",
+        "rank": 2
+      }
+    ]
+  },
+  "shadowpvp20/0/31": {
+    "total": {
+      "S": 31,
+      "D": 20
+    },
+    "valid": true,
+    "steps": [
+      {
+        "level": 10,
+        "talent": "Blackout",
+        "rank": 1
+      },
+      {
+        "level": 11,
+        "talent": "Blackout",
+        "rank": 2
+      },
+      {
+        "level": 12,
+        "talent": "Blackout",
+        "rank": 3
+      },
+      {
+        "level": 13,
+        "talent": "Blackout",
+        "rank": 4
+      },
+      {
+        "level": 14,
+        "talent": "Blackout",
+        "rank": 5
+      },
+      {
+        "level": 15,
+        "talent": "Pain",
+        "rank": 1
+      },
+      {
+        "level": 16,
+        "talent": "Pain",
+        "rank": 2
+      },
+      {
+        "level": 17,
+        "talent": "Reach",
+        "rank": 1
+      },
+      {
+        "level": 18,
+        "talent": "Reach",
+        "rank": 2
+      },
+      {
+        "level": 19,
+        "talent": "Focus",
+        "rank": 1
+      },
+      {
+        "level": 20,
+        "talent": "Flay",
+        "rank": 1
+      },
+      {
+        "level": 21,
+        "talent": "ImpFlay",
+        "rank": 1
+      },
+      {
+        "level": 22,
+        "talent": "ImpFlay",
+        "rank": 2
+      },
+      {
+        "level": 23,
+        "talent": "Scream",
+        "rank": 1
+      },
+      {
+        "level": 24,
+        "talent": "Scream",
+        "rank": 2
+      },
+      {
+        "level": 25,
+        "talent": "VE",
+        "rank": 1
+      },
+      {
+        "level": 26,
+        "talent": "Weaving",
+        "rank": 1
+      },
+      {
+        "level": 27,
+        "talent": "Weaving",
+        "rank": 2
+      },
+      {
+        "level": 28,
+        "talent": "Weaving",
+        "rank": 3
+      },
+      {
+        "level": 29,
+        "talent": "Blast",
+        "rank": 1
+      },
+      {
+        "level": 30,
+        "talent": "Silence",
+        "rank": 1
+      },
+      {
+        "level": 31,
+        "talent": "Contagion",
+        "rank": 1
+      },
+      {
+        "level": 32,
+        "talent": "Contagion",
+        "rank": 2
+      },
+      {
+        "level": 33,
+        "talent": "Focus",
+        "rank": 2
+      },
+      {
+        "level": 34,
+        "talent": "Focus",
+        "rank": 3
+      },
+      {
+        "level": 35,
+        "talent": "Darkness",
+        "rank": 1
+      },
+      {
+        "level": 36,
+        "talent": "Darkness",
+        "rank": 2
+      },
+      {
+        "level": 37,
+        "talent": "Darkness",
+        "rank": 3
+      },
+      {
+        "level": 38,
+        "talent": "Darkness",
+        "rank": 4
+      },
+      {
+        "level": 39,
+        "talent": "Darkness",
+        "rank": 5
+      },
+      {
+        "level": 40,
+        "talent": "Form",
+        "rank": 1
+      },
+      {
+        "level": 41,
+        "talent": "Twin",
+        "rank": 1
+      },
+      {
+        "level": 42,
+        "talent": "Twin",
+        "rank": 2
+      },
+      {
+        "level": 43,
+        "talent": "Twin",
+        "rank": 3
+      },
+      {
+        "level": 44,
+        "talent": "Twin",
+        "rank": 4
+      },
+      {
+        "level": 45,
+        "talent": "Twin",
+        "rank": 5
+      },
+      {
+        "level": 46,
+        "talent": "Silent",
+        "rank": 1
+      },
+      {
+        "level": 47,
+        "talent": "Silent",
+        "rank": 2
+      },
+      {
+        "level": 48,
+        "talent": "Silent",
+        "rank": 3
+      },
+      {
+        "level": 49,
+        "talent": "Martyr",
+        "rank": 1
+      },
+      {
+        "level": 50,
+        "talent": "Martyr",
+        "rank": 2
+      },
+      {
+        "level": 51,
+        "talent": "Shield",
+        "rank": 1
+      },
+      {
+        "level": 52,
+        "talent": "Shield",
+        "rank": 2
+      },
+      {
+        "level": 53,
+        "talent": "Shield",
+        "rank": 3
+      },
+      {
+        "level": 54,
+        "talent": "Meditation",
+        "rank": 1
+      },
+      {
+        "level": 55,
+        "talent": "Meditation",
+        "rank": 2
+      },
+      {
+        "level": 56,
+        "talent": "Meditation",
+        "rank": 3
+      },
+      {
+        "level": 57,
+        "talent": "Soul",
+        "rank": 1
+      },
+      {
+        "level": 58,
+        "talent": "Inner",
+        "rank": 1
+      },
+      {
+        "level": 59,
+        "talent": "Agility",
+        "rank": 1
+      },
+      {
+        "level": 60,
+        "talent": "Agility",
+        "rank": 2
+      }
+    ]
+  },
+  "holypvp20/31/0": {
+    "total": {
+      "H": 31,
+      "D": 20
+    },
+    "valid": true,
+    "steps": [
+      {
+        "level": 10,
+        "talent": "Twilight",
+        "rank": 1
+      },
+      {
+        "level": 11,
+        "talent": "Twilight",
+        "rank": 2
+      },
+      {
+        "level": 12,
+        "talent": "Twilight",
+        "rank": 3
+      },
+      {
+        "level": 13,
+        "talent": "HolySpec",
+        "rank": 1
+      },
+      {
+        "level": 14,
+        "talent": "HolySpec",
+        "rank": 2
+      },
+      {
+        "level": 15,
+        "talent": "Warding",
+        "rank": 1
+      },
+      {
+        "level": 16,
+        "talent": "Warding",
+        "rank": 2
+      },
+      {
+        "level": 17,
+        "talent": "Warding",
+        "rank": 3
+      },
+      {
+        "level": 18,
+        "talent": "Warding",
+        "rank": 4
+      },
+      {
+        "level": 19,
+        "talent": "Warding",
+        "rank": 5
+      },
+      {
+        "level": 20,
+        "talent": "Nova",
+        "rank": 1
+      },
+      {
+        "level": 21,
+        "talent": "Recovery",
+        "rank": 1
+      },
+      {
+        "level": 22,
+        "talent": "Recovery",
+        "rank": 2
+      },
+      {
+        "level": 23,
+        "talent": "Recovery",
+        "rank": 3
+      },
+      {
+        "level": 24,
+        "talent": "HolyInsp",
+        "rank": 1
+      },
+      {
+        "level": 25,
+        "talent": "Healing",
+        "rank": 1
+      },
+      {
+        "level": 26,
+        "talent": "Healing",
+        "rank": 2
+      },
+      {
+        "level": 27,
+        "talent": "Healing",
+        "rank": 3
+      },
+      {
+        "level": 28,
+        "talent": "Binding",
+        "rank": 1
+      },
+      {
+        "level": 29,
+        "talent": "HolyReach",
+        "rank": 1
+      },
+      {
+        "level": 30,
+        "talent": "Litany",
+        "rank": 1
+      },
+      {
+        "level": 31,
+        "talent": "Litany",
+        "rank": 2
+      },
+      {
+        "level": 32,
+        "talent": "Redemption",
+        "rank": 1
+      },
+      {
+        "level": 33,
+        "talent": "Guidance",
+        "rank": 1
+      },
+      {
+        "level": 34,
+        "talent": "Guidance",
+        "rank": 2
+      },
+      {
+        "level": 35,
+        "talent": "Spiritual",
+        "rank": 1
+      },
+      {
+        "level": 36,
+        "talent": "Spiritual",
+        "rank": 2
+      },
+      {
+        "level": 37,
+        "talent": "Spiritual",
+        "rank": 3
+      },
+      {
+        "level": 38,
+        "talent": "Guidance",
+        "rank": 3
+      },
+      {
+        "level": 39,
+        "talent": "Guidance",
+        "rank": 4
+      },
+      {
+        "level": 40,
+        "talent": "PoM",
+        "rank": 1
+      },
+      {
+        "level": 41,
+        "talent": "Twin",
+        "rank": 1
+      },
+      {
+        "level": 42,
+        "talent": "Twin",
+        "rank": 2
+      },
+      {
+        "level": 43,
+        "talent": "Twin",
+        "rank": 3
+      },
+      {
+        "level": 44,
+        "talent": "Twin",
+        "rank": 4
+      },
+      {
+        "level": 45,
+        "talent": "Twin",
+        "rank": 5
+      },
+      {
+        "level": 46,
+        "talent": "Silent",
+        "rank": 1
+      },
+      {
+        "level": 47,
+        "talent": "Silent",
+        "rank": 2
+      },
+      {
+        "level": 48,
+        "talent": "Silent",
+        "rank": 3
+      },
+      {
+        "level": 49,
+        "talent": "Martyr",
+        "rank": 1
+      },
+      {
+        "level": 50,
+        "talent": "Martyr",
+        "rank": 2
+      },
+      {
+        "level": 51,
+        "talent": "Shield",
+        "rank": 1
+      },
+      {
+        "level": 52,
+        "talent": "Shield",
+        "rank": 2
+      },
+      {
+        "level": 53,
+        "talent": "Shield",
+        "rank": 3
+      },
+      {
+        "level": 54,
+        "talent": "Meditation",
+        "rank": 1
+      },
+      {
+        "level": 55,
+        "talent": "Meditation",
+        "rank": 2
+      },
+      {
+        "level": 56,
+        "talent": "Meditation",
+        "rank": 3
+      },
+      {
+        "level": 57,
+        "talent": "Soul",
+        "rank": 1
+      },
+      {
+        "level": 58,
+        "talent": "Inner",
+        "rank": 1
+      },
+      {
+        "level": 59,
+        "talent": "Agility",
+        "rank": 1
+      },
+      {
+        "level": 60,
+        "talent": "Agility",
+        "rank": 2
+      }
+    ]
+  }
+}

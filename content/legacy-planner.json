@@ -1,0 +1,550 @@
+{
+  "checkedAt": "2026-11-06",
+  "traits": [
+    {
+      "id": "thrill",
+      "idType": "guide-local-slug",
+      "name": "Thrill of Adventure",
+      "tree": "adventure",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 0,
+        "requiredTraits": []
+      },
+      "summary": "Returns 1% maximum health and mana per rank over 10 seconds after a qualifying killing blow; excluded from dungeons, raids and battlegrounds.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/adventure/",
+      "treePointsRequired": 0,
+      "prerequisites": {}
+    },
+    {
+      "id": "rested",
+      "idType": "guide-local-slug",
+      "name": "Well Rested",
+      "tree": "adventure",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 0,
+        "requiredTraits": []
+      },
+      "summary": "Rested accumulation and cap increase 4% per rank; not a blanket XP modifier.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/adventure/",
+      "treePointsRequired": 0,
+      "prerequisites": {}
+    },
+    {
+      "id": "talented",
+      "idType": "guide-local-slug",
+      "name": "Talented",
+      "tree": "adventure",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": [
+          {
+            "id": "rested",
+            "rank": 5
+          }
+        ]
+      },
+      "summary": "Talents start one level earlier per rank; the total cap stays 51.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/adventure/",
+      "treePointsRequired": 5,
+      "prerequisites": {
+        "rested": 5
+      }
+    },
+    {
+      "id": "alert",
+      "idType": "guide-local-slug",
+      "name": "High Alert",
+      "tree": "adventure",
+      "maxRanks": 2,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": []
+      },
+      "summary": "Stealth detection increases by one effective level per rank outside battlegrounds.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/adventure/",
+      "treePointsRequired": 5,
+      "prerequisites": {}
+    },
+    {
+      "id": "field",
+      "idType": "guide-local-slug",
+      "name": "Field Guide",
+      "tree": "adventure",
+      "maxRanks": 3,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": []
+      },
+      "summary": "Camp feature cooldown reduction: 8%, 17%, 25%.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/adventure/",
+      "treePointsRequired": 5,
+      "prerequisites": {}
+    },
+    {
+      "id": "flier",
+      "idType": "guide-local-slug",
+      "name": "Frequent Flier",
+      "tree": "adventure",
+      "maxRanks": 1,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 10,
+        "requiredTraits": [
+          {
+            "id": "field",
+            "rank": 3
+          }
+        ]
+      },
+      "summary": "Flight prices halved and flight movement speed increased 20%.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/adventure/",
+      "treePointsRequired": 10,
+      "prerequisites": {
+        "field": 3
+      }
+    },
+    {
+      "id": "medicine",
+      "idType": "guide-local-slug",
+      "name": "Field Medicine",
+      "tree": "adventure",
+      "maxRanks": 2,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": []
+      },
+      "summary": "Recently Bandaged duration reduced by 5 seconds per rank outside instances and battlegrounds.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/adventure/",
+      "treePointsRequired": 5,
+      "prerequisites": {}
+    },
+    {
+      "id": "overtime",
+      "idType": "guide-local-slug",
+      "name": "Working Overtime",
+      "tree": "professions",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 0,
+        "requiredTraits": []
+      },
+      "summary": "Improves skill-up chance by 4% per rank; actual hotfixed value should be checked in game.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/professions/",
+      "treePointsRequired": 0,
+      "prerequisites": {}
+    },
+    {
+      "id": "harvest",
+      "idType": "guide-local-slug",
+      "name": "Bountiful Harvest",
+      "tree": "professions",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 0,
+        "requiredTraits": []
+      },
+      "summary": "Scarce material discovery chance increases 20% per rank; not all ordinary gathering yield.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/professions/",
+      "treePointsRequired": 0,
+      "prerequisites": {}
+    },
+    {
+      "id": "bartering",
+      "idType": "guide-local-slug",
+      "name": "Bartering",
+      "tree": "professions",
+      "maxRanks": 2,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": []
+      },
+      "summary": "Vendor item prices reduced 5% per rank; excludes training and repair discounts.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/professions/",
+      "treePointsRequired": 5,
+      "prerequisites": {}
+    },
+    {
+      "id": "performance",
+      "idType": "guide-local-slug",
+      "name": "Performance Bonus",
+      "tree": "professions",
+      "maxRanks": 3,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": [
+          {
+            "id": "harvest",
+            "rank": 5
+          }
+        ]
+      },
+      "summary": "5% chance per rank for double Merchant's Favor from crate turn-ins.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/professions/",
+      "treePointsRequired": 5,
+      "prerequisites": {
+        "harvest": 5
+      }
+    },
+    {
+      "id": "chef",
+      "idType": "guide-local-slug",
+      "name": "Master Chef",
+      "tree": "professions",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": []
+      },
+      "summary": "10% extra-result chance per rank for Cooking; verify any live hotfix.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/professions/",
+      "treePointsRequired": 5,
+      "prerequisites": {}
+    },
+    {
+      "id": "lure",
+      "idType": "guide-local-slug",
+      "name": "Luremaster",
+      "tree": "professions",
+      "maxRanks": 2,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": []
+      },
+      "summary": "25% chance per rank for an extra fish while a lure is active.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/professions/",
+      "treePointsRequired": 5,
+      "prerequisites": {}
+    },
+    {
+      "id": "study",
+      "idType": "guide-local-slug",
+      "name": "Dedicated Study",
+      "tree": "professions",
+      "maxRanks": 1,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 10,
+        "requiredTraits": [
+          {
+            "id": "bartering",
+            "rank": 2
+          }
+        ]
+      },
+      "summary": "Raises the lowest primary or secondary tradeskill by one; special Essence reward requires all five at 300.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/professions/",
+      "treePointsRequired": 10,
+      "prerequisites": {
+        "bartering": 2
+      }
+    },
+    {
+      "id": "gourmand",
+      "idType": "guide-local-slug",
+      "name": "Gourmand",
+      "tree": "resourcefulness",
+      "maxRanks": 3,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 0,
+        "requiredTraits": []
+      },
+      "summary": "Food buff duration increases 33%, 67%, 100%.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/resourcefulness/",
+      "treePointsRequired": 0,
+      "prerequisites": {}
+    },
+    {
+      "id": "quick",
+      "idType": "guide-local-slug",
+      "name": "The Quick and the Dead",
+      "tree": "resourcefulness",
+      "maxRanks": 2,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 0,
+        "requiredTraits": []
+      },
+      "summary": "Faster corpse travel and temporary free helpful abilities after resurrection until combat.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/resourcefulness/",
+      "treePointsRequired": 0,
+      "prerequisites": {}
+    },
+    {
+      "id": "reinforce",
+      "idType": "guide-local-slug",
+      "name": "Reinforce",
+      "tree": "resourcefulness",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 0,
+        "requiredTraits": []
+      },
+      "summary": "Death durability loss reduced 8% per rank.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/resourcefulness/",
+      "treePointsRequired": 0,
+      "prerequisites": {}
+    },
+    {
+      "id": "honor",
+      "idType": "guide-local-slug",
+      "name": "For Great Honor",
+      "tree": "resourcefulness",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": []
+      },
+      "summary": "Honor gains increase 2% per rank.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/resourcefulness/",
+      "treePointsRequired": 5,
+      "prerequisites": {}
+    },
+    {
+      "id": "diplomat",
+      "idType": "guide-local-slug",
+      "name": "Diplomat",
+      "tree": "resourcefulness",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": []
+      },
+      "summary": "Reputation gains increase 2% per rank.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/resourcefulness/",
+      "treePointsRequired": 5,
+      "prerequisites": {}
+    },
+    {
+      "id": "permanence",
+      "idType": "guide-local-slug",
+      "name": "Permanence",
+      "tree": "resourcefulness",
+      "maxRanks": 2,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": [
+          {
+            "id": "gourmand",
+            "rank": 3
+          }
+        ]
+      },
+      "summary": "Long party/raid class buff duration increases; camping-duration wording differs among sources.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/resourcefulness/",
+      "treePointsRequired": 5,
+      "prerequisites": {
+        "gourmand": 3
+      }
+    },
+    {
+      "id": "reagents",
+      "idType": "guide-local-slug",
+      "name": "Reagent Economy",
+      "tree": "resourcefulness",
+      "maxRanks": 1,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 10,
+        "requiredTraits": [
+          {
+            "id": "quick",
+            "rank": 2
+          }
+        ]
+      },
+      "summary": "Eliminates vendor-reagent requirements from class abilities; official overview also describes tier-1 camp materials.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/resourcefulness/",
+      "treePointsRequired": 10,
+      "prerequisites": {
+        "quick": 2
+      }
+    }
+  ],
+  "plans": [
+    {
+      "id": "firstPriest",
+      "name": "First Priest: solo questing",
+      "description": "A zero-point account earns points gradually and the Priest still has meaningful leveling remaining. Reassess Talented near level60.",
+      "steps": [
+        "thrill",
+        "thrill",
+        "thrill",
+        "thrill",
+        "thrill",
+        "rested",
+        "rested",
+        "rested",
+        "rested",
+        "rested",
+        "talented",
+        "talented",
+        "talented",
+        "talented",
+        "talented",
+        "overtime"
+      ],
+      "caveat": "Point16 is a replaceable first-row profession flex point. Thrill excludes dungeon, raid and battleground combat. This is a recommendation, not a proven fastest-account route."
+    },
+    {
+      "id": "altLeveling",
+      "name": "Established account: leveling alt",
+      "description": "Use available shared points independently on a new character.",
+      "steps": [
+        "rested",
+        "rested",
+        "rested",
+        "rested",
+        "rested",
+        "talented",
+        "talented",
+        "talented",
+        "talented",
+        "talented",
+        "thrill",
+        "thrill",
+        "thrill",
+        "thrill",
+        "thrill",
+        "overtime"
+      ],
+      "caveat": "The main should not be assumed to own this allocation at creation. The final point is a flex choice."
+    },
+    {
+      "id": "healerProfessions",
+      "name": "Healer who crafts, cooks and fishes",
+      "description": "An activity-specific economy option for a healer with two crafting professions who also develops Cooking and Fishing.",
+      "steps": [
+        "overtime",
+        "overtime",
+        "overtime",
+        "overtime",
+        "overtime",
+        "bartering",
+        "bartering",
+        "chef",
+        "chef",
+        "chef",
+        "study",
+        "chef",
+        "chef",
+        "lure",
+        "lure",
+        "quick"
+      ],
+      "caveat": "No direct healing-throughput claim. Dedicated Study targets the lowest eligible skill. Cooking/Fishing points are poor if those activities are unused. A gatherer should consider the alternate gathererCrafter plan."
+    },
+    {
+      "id": "flightLeveling",
+      "name": "Leveling with frequent travel",
+      "description": "Frequent flights justify reducing sustain.",
+      "steps": [
+        "rested",
+        "rested",
+        "rested",
+        "rested",
+        "rested",
+        "talented",
+        "talented",
+        "talented",
+        "talented",
+        "talented",
+        "field",
+        "field",
+        "field",
+        "flier",
+        "thrill",
+        "thrill"
+      ],
+      "caveat": "Field Guide must be3/3. 20% faster flight speed means about16.7% less flight time before fixed delays."
+    },
+    {
+      "id": "pvpProgression",
+      "name": "Honor and reputation progression",
+      "description": "Battleground progression is the main activity.",
+      "steps": [
+        "gourmand",
+        "gourmand",
+        "gourmand",
+        "quick",
+        "quick",
+        "honor",
+        "honor",
+        "honor",
+        "honor",
+        "honor",
+        "reagents",
+        "diplomat",
+        "diplomat",
+        "diplomat",
+        "diplomat",
+        "diplomat"
+      ],
+      "caveat": "Does not improve every combat statistic. Honor bonuses do not bypass time gates or objectives."
+    },
+    {
+      "id": "gathererCrafter",
+      "name": "Gatherer and crafter",
+      "description": "The character actually gathers Scarce materials and delivers crates.",
+      "steps": [
+        "overtime",
+        "overtime",
+        "overtime",
+        "overtime",
+        "overtime",
+        "harvest",
+        "harvest",
+        "harvest",
+        "harvest",
+        "harvest",
+        "bartering",
+        "bartering",
+        "study",
+        "performance",
+        "performance",
+        "performance"
+      ],
+      "caveat": "Bountiful Harvest does not double all normal gathering yield."
+    }
+  ]
+}

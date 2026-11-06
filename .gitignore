@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+tmp/
+node_modules/
+output/qa/
+*.tar.gz

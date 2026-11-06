@@ -1,0 +1,1429 @@
+{
+  "checkedAt": "2026-11-06",
+  "game": "World of Warcraft: Forever",
+  "clientBuild": "1.60.1.70790",
+  "characterSpendCap": 16,
+  "announcedAccountChallengeTotal": 65,
+  "classTalentFormula": "min(51,max(0,level-9+talentedRank))",
+  "traits": [
+    {
+      "id": "thrill",
+      "idType": "guide-local-slug",
+      "name": "Thrill of Adventure",
+      "tree": "adventure",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 0,
+        "requiredTraits": []
+      },
+      "summary": "Returns 1% maximum health and mana per rank over 10 seconds after a qualifying killing blow; excluded from dungeons, raids and battlegrounds.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/adventure/"
+    },
+    {
+      "id": "rested",
+      "idType": "guide-local-slug",
+      "name": "Well Rested",
+      "tree": "adventure",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 0,
+        "requiredTraits": []
+      },
+      "summary": "Rested accumulation and cap increase 4% per rank; not a blanket XP modifier.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/adventure/"
+    },
+    {
+      "id": "talented",
+      "idType": "guide-local-slug",
+      "name": "Talented",
+      "tree": "adventure",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": [
+          {
+            "id": "rested",
+            "rank": 5
+          }
+        ]
+      },
+      "summary": "Talents start one level earlier per rank; the total cap stays 51.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/adventure/"
+    },
+    {
+      "id": "alert",
+      "idType": "guide-local-slug",
+      "name": "High Alert",
+      "tree": "adventure",
+      "maxRanks": 2,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": []
+      },
+      "summary": "Stealth detection increases by one effective level per rank outside battlegrounds.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/adventure/"
+    },
+    {
+      "id": "field",
+      "idType": "guide-local-slug",
+      "name": "Field Guide",
+      "tree": "adventure",
+      "maxRanks": 3,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": []
+      },
+      "summary": "Camp feature cooldown reduction: 8%, 17%, 25%.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/adventure/"
+    },
+    {
+      "id": "flier",
+      "idType": "guide-local-slug",
+      "name": "Frequent Flier",
+      "tree": "adventure",
+      "maxRanks": 1,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 10,
+        "requiredTraits": [
+          {
+            "id": "field",
+            "rank": 3
+          }
+        ]
+      },
+      "summary": "Flight prices halved and flight movement speed increased 20%.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/adventure/"
+    },
+    {
+      "id": "medicine",
+      "idType": "guide-local-slug",
+      "name": "Field Medicine",
+      "tree": "adventure",
+      "maxRanks": 2,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": []
+      },
+      "summary": "Recently Bandaged duration reduced by 5 seconds per rank outside instances and battlegrounds.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/adventure/"
+    },
+    {
+      "id": "overtime",
+      "idType": "guide-local-slug",
+      "name": "Working Overtime",
+      "tree": "professions",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 0,
+        "requiredTraits": []
+      },
+      "summary": "Improves skill-up chance by 4% per rank; actual hotfixed value should be checked in game.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/professions/"
+    },
+    {
+      "id": "harvest",
+      "idType": "guide-local-slug",
+      "name": "Bountiful Harvest",
+      "tree": "professions",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 0,
+        "requiredTraits": []
+      },
+      "summary": "Scarce material discovery chance increases 20% per rank; not all ordinary gathering yield.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/professions/"
+    },
+    {
+      "id": "bartering",
+      "idType": "guide-local-slug",
+      "name": "Bartering",
+      "tree": "professions",
+      "maxRanks": 2,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": []
+      },
+      "summary": "Vendor item prices reduced 5% per rank; excludes training and repair discounts.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/professions/"
+    },
+    {
+      "id": "performance",
+      "idType": "guide-local-slug",
+      "name": "Performance Bonus",
+      "tree": "professions",
+      "maxRanks": 3,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": [
+          {
+            "id": "harvest",
+            "rank": 5
+          }
+        ]
+      },
+      "summary": "5% chance per rank for double Merchant's Favor from crate turn-ins.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/professions/"
+    },
+    {
+      "id": "chef",
+      "idType": "guide-local-slug",
+      "name": "Master Chef",
+      "tree": "professions",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": []
+      },
+      "summary": "10% extra-result chance per rank for Cooking; verify any live hotfix.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/professions/"
+    },
+    {
+      "id": "lure",
+      "idType": "guide-local-slug",
+      "name": "Luremaster",
+      "tree": "professions",
+      "maxRanks": 2,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": []
+      },
+      "summary": "25% chance per rank for an extra fish while a lure is active.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/professions/"
+    },
+    {
+      "id": "study",
+      "idType": "guide-local-slug",
+      "name": "Dedicated Study",
+      "tree": "professions",
+      "maxRanks": 1,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 10,
+        "requiredTraits": [
+          {
+            "id": "bartering",
+            "rank": 2
+          }
+        ]
+      },
+      "summary": "Raises the lowest primary or secondary tradeskill by one; special Essence reward requires all five at 300.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/professions/"
+    },
+    {
+      "id": "gourmand",
+      "idType": "guide-local-slug",
+      "name": "Gourmand",
+      "tree": "resourcefulness",
+      "maxRanks": 3,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 0,
+        "requiredTraits": []
+      },
+      "summary": "Food buff duration increases 33%, 67%, 100%.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/resourcefulness/"
+    },
+    {
+      "id": "quick",
+      "idType": "guide-local-slug",
+      "name": "The Quick and the Dead",
+      "tree": "resourcefulness",
+      "maxRanks": 2,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 0,
+        "requiredTraits": []
+      },
+      "summary": "Faster corpse travel and temporary free helpful abilities after resurrection until combat.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/resourcefulness/"
+    },
+    {
+      "id": "reinforce",
+      "idType": "guide-local-slug",
+      "name": "Reinforce",
+      "tree": "resourcefulness",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 0,
+        "requiredTraits": []
+      },
+      "summary": "Death durability loss reduced 8% per rank.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/resourcefulness/"
+    },
+    {
+      "id": "honor",
+      "idType": "guide-local-slug",
+      "name": "For Great Honor",
+      "tree": "resourcefulness",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": []
+      },
+      "summary": "Honor gains increase 2% per rank.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/resourcefulness/"
+    },
+    {
+      "id": "diplomat",
+      "idType": "guide-local-slug",
+      "name": "Diplomat",
+      "tree": "resourcefulness",
+      "maxRanks": 5,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": []
+      },
+      "summary": "Reputation gains increase 2% per rank.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/resourcefulness/"
+    },
+    {
+      "id": "permanence",
+      "idType": "guide-local-slug",
+      "name": "Permanence",
+      "tree": "resourcefulness",
+      "maxRanks": 2,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 5,
+        "requiredTraits": [
+          {
+            "id": "gourmand",
+            "rank": 3
+          }
+        ]
+      },
+      "summary": "Long party/raid class buff duration increases; camping-duration wording differs among sources.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/resourcefulness/"
+    },
+    {
+      "id": "reagents",
+      "idType": "guide-local-slug",
+      "name": "Reagent Economy",
+      "tree": "resourcefulness",
+      "maxRanks": 1,
+      "costPerRank": 1,
+      "treeTierPrerequisites": {
+        "pointsInSameTreeBeforePurchase": 10,
+        "requiredTraits": [
+          {
+            "id": "quick",
+            "rank": 2
+          }
+        ]
+      },
+      "summary": "Eliminates vendor-reagent requirements from class abilities; official overview also describes tier-1 camp materials.",
+      "evidenceLevel": "community-extracted-client",
+      "sourceUrl": "https://wow-forever.gg/legacy/resourcefulness/"
+    }
+  ],
+  "recommendations": {
+    "firstPriest": {
+      "name": "First Priest: solo questing",
+      "when": "A zero-point account earns points gradually and the Priest still has meaningful leveling remaining. Reassess Talented near level60.",
+      "order": [
+        "thrill",
+        "thrill",
+        "thrill",
+        "thrill",
+        "thrill",
+        "rested",
+        "rested",
+        "rested",
+        "rested",
+        "rested",
+        "talented",
+        "talented",
+        "talented",
+        "talented",
+        "talented",
+        "overtime"
+      ],
+      "caveats": [
+        "Point16 is a replaceable first-row profession flex point.",
+        "Thrill excludes dungeon, raid and battleground combat.",
+        "This is a recommendation, not a proven fastest-account route."
+      ],
+      "snapshots": [
+        {
+          "earnedPoints": 0,
+          "spentPoints": 0,
+          "allocation": {}
+        },
+        {
+          "earnedPoints": 1,
+          "spentPoints": 1,
+          "allocation": {
+            "thrill": 1
+          }
+        },
+        {
+          "earnedPoints": 2,
+          "spentPoints": 2,
+          "allocation": {
+            "thrill": 2
+          }
+        },
+        {
+          "earnedPoints": 3,
+          "spentPoints": 3,
+          "allocation": {
+            "thrill": 3
+          }
+        },
+        {
+          "earnedPoints": 4,
+          "spentPoints": 4,
+          "allocation": {
+            "thrill": 4
+          }
+        },
+        {
+          "earnedPoints": 5,
+          "spentPoints": 5,
+          "allocation": {
+            "thrill": 5
+          }
+        },
+        {
+          "earnedPoints": 6,
+          "spentPoints": 6,
+          "allocation": {
+            "thrill": 5,
+            "rested": 1
+          }
+        },
+        {
+          "earnedPoints": 7,
+          "spentPoints": 7,
+          "allocation": {
+            "thrill": 5,
+            "rested": 2
+          }
+        },
+        {
+          "earnedPoints": 8,
+          "spentPoints": 8,
+          "allocation": {
+            "thrill": 5,
+            "rested": 3
+          }
+        },
+        {
+          "earnedPoints": 9,
+          "spentPoints": 9,
+          "allocation": {
+            "thrill": 5,
+            "rested": 4
+          }
+        },
+        {
+          "earnedPoints": 10,
+          "spentPoints": 10,
+          "allocation": {
+            "thrill": 5,
+            "rested": 5
+          }
+        },
+        {
+          "earnedPoints": 11,
+          "spentPoints": 11,
+          "allocation": {
+            "thrill": 5,
+            "rested": 5,
+            "talented": 1
+          }
+        },
+        {
+          "earnedPoints": 12,
+          "spentPoints": 12,
+          "allocation": {
+            "thrill": 5,
+            "rested": 5,
+            "talented": 2
+          }
+        },
+        {
+          "earnedPoints": 13,
+          "spentPoints": 13,
+          "allocation": {
+            "thrill": 5,
+            "rested": 5,
+            "talented": 3
+          }
+        },
+        {
+          "earnedPoints": 14,
+          "spentPoints": 14,
+          "allocation": {
+            "thrill": 5,
+            "rested": 5,
+            "talented": 4
+          }
+        },
+        {
+          "earnedPoints": 15,
+          "spentPoints": 15,
+          "allocation": {
+            "thrill": 5,
+            "rested": 5,
+            "talented": 5
+          }
+        },
+        {
+          "earnedPoints": 16,
+          "spentPoints": 16,
+          "allocation": {
+            "thrill": 5,
+            "rested": 5,
+            "talented": 5,
+            "overtime": 1
+          }
+        }
+      ],
+      "finalAllocation": {
+        "thrill": 5,
+        "rested": 5,
+        "talented": 5,
+        "overtime": 1
+      },
+      "validation": "Every intermediate rank satisfies max-rank, same-tree gate, named prerequisite and16-point cap checks."
+    },
+    "altLeveling": {
+      "name": "Established account: leveling alt",
+      "when": "Use available shared points independently on a new character.",
+      "order": [
+        "rested",
+        "rested",
+        "rested",
+        "rested",
+        "rested",
+        "talented",
+        "talented",
+        "talented",
+        "talented",
+        "talented",
+        "thrill",
+        "thrill",
+        "thrill",
+        "thrill",
+        "thrill",
+        "overtime"
+      ],
+      "caveats": [
+        "The main should not be assumed to own this allocation at creation.",
+        "The final point is a flex choice."
+      ],
+      "snapshots": [
+        {
+          "earnedPoints": 0,
+          "spentPoints": 0,
+          "allocation": {}
+        },
+        {
+          "earnedPoints": 1,
+          "spentPoints": 1,
+          "allocation": {
+            "rested": 1
+          }
+        },
+        {
+          "earnedPoints": 2,
+          "spentPoints": 2,
+          "allocation": {
+            "rested": 2
+          }
+        },
+        {
+          "earnedPoints": 3,
+          "spentPoints": 3,
+          "allocation": {
+            "rested": 3
+          }
+        },
+        {
+          "earnedPoints": 4,
+          "spentPoints": 4,
+          "allocation": {
+            "rested": 4
+          }
+        },
+        {
+          "earnedPoints": 5,
+          "spentPoints": 5,
+          "allocation": {
+            "rested": 5
+          }
+        },
+        {
+          "earnedPoints": 6,
+          "spentPoints": 6,
+          "allocation": {
+            "rested": 5,
+            "talented": 1
+          }
+        },
+        {
+          "earnedPoints": 7,
+          "spentPoints": 7,
+          "allocation": {
+            "rested": 5,
+            "talented": 2
+          }
+        },
+        {
+          "earnedPoints": 8,
+          "spentPoints": 8,
+          "allocation": {
+            "rested": 5,
+            "talented": 3
+          }
+        },
+        {
+          "earnedPoints": 9,
+          "spentPoints": 9,
+          "allocation": {
+            "rested": 5,
+            "talented": 4
+          }
+        },
+        {
+          "earnedPoints": 10,
+          "spentPoints": 10,
+          "allocation": {
+            "rested": 5,
+            "talented": 5
+          }
+        },
+        {
+          "earnedPoints": 11,
+          "spentPoints": 11,
+          "allocation": {
+            "rested": 5,
+            "talented": 5,
+            "thrill": 1
+          }
+        },
+        {
+          "earnedPoints": 12,
+          "spentPoints": 12,
+          "allocation": {
+            "rested": 5,
+            "talented": 5,
+            "thrill": 2
+          }
+        },
+        {
+          "earnedPoints": 13,
+          "spentPoints": 13,
+          "allocation": {
+            "rested": 5,
+            "talented": 5,
+            "thrill": 3
+          }
+        },
+        {
+          "earnedPoints": 14,
+          "spentPoints": 14,
+          "allocation": {
+            "rested": 5,
+            "talented": 5,
+            "thrill": 4
+          }
+        },
+        {
+          "earnedPoints": 15,
+          "spentPoints": 15,
+          "allocation": {
+            "rested": 5,
+            "talented": 5,
+            "thrill": 5
+          }
+        },
+        {
+          "earnedPoints": 16,
+          "spentPoints": 16,
+          "allocation": {
+            "rested": 5,
+            "talented": 5,
+            "thrill": 5,
+            "overtime": 1
+          }
+        }
+      ],
+      "finalAllocation": {
+        "rested": 5,
+        "talented": 5,
+        "thrill": 5,
+        "overtime": 1
+      },
+      "validation": "Every intermediate rank satisfies max-rank, same-tree gate, named prerequisite and16-point cap checks."
+    },
+    "healerProfessions": {
+      "name": "Healer who crafts, cooks and fishes",
+      "when": "An activity-specific economy option for a healer with two crafting professions who also develops Cooking and Fishing.",
+      "order": [
+        "overtime",
+        "overtime",
+        "overtime",
+        "overtime",
+        "overtime",
+        "bartering",
+        "bartering",
+        "chef",
+        "chef",
+        "chef",
+        "study",
+        "chef",
+        "chef",
+        "lure",
+        "lure",
+        "quick"
+      ],
+      "caveats": [
+        "No direct healing-throughput claim.",
+        "Dedicated Study targets the lowest eligible skill.",
+        "Cooking/Fishing points are poor if those activities are unused.",
+        "A gatherer should consider the alternate gathererCrafter plan."
+      ],
+      "snapshots": [
+        {
+          "earnedPoints": 0,
+          "spentPoints": 0,
+          "allocation": {}
+        },
+        {
+          "earnedPoints": 1,
+          "spentPoints": 1,
+          "allocation": {
+            "overtime": 1
+          }
+        },
+        {
+          "earnedPoints": 2,
+          "spentPoints": 2,
+          "allocation": {
+            "overtime": 2
+          }
+        },
+        {
+          "earnedPoints": 3,
+          "spentPoints": 3,
+          "allocation": {
+            "overtime": 3
+          }
+        },
+        {
+          "earnedPoints": 4,
+          "spentPoints": 4,
+          "allocation": {
+            "overtime": 4
+          }
+        },
+        {
+          "earnedPoints": 5,
+          "spentPoints": 5,
+          "allocation": {
+            "overtime": 5
+          }
+        },
+        {
+          "earnedPoints": 6,
+          "spentPoints": 6,
+          "allocation": {
+            "overtime": 5,
+            "bartering": 1
+          }
+        },
+        {
+          "earnedPoints": 7,
+          "spentPoints": 7,
+          "allocation": {
+            "overtime": 5,
+            "bartering": 2
+          }
+        },
+        {
+          "earnedPoints": 8,
+          "spentPoints": 8,
+          "allocation": {
+            "overtime": 5,
+            "bartering": 2,
+            "chef": 1
+          }
+        },
+        {
+          "earnedPoints": 9,
+          "spentPoints": 9,
+          "allocation": {
+            "overtime": 5,
+            "bartering": 2,
+            "chef": 2
+          }
+        },
+        {
+          "earnedPoints": 10,
+          "spentPoints": 10,
+          "allocation": {
+            "overtime": 5,
+            "bartering": 2,
+            "chef": 3
+          }
+        },
+        {
+          "earnedPoints": 11,
+          "spentPoints": 11,
+          "allocation": {
+            "overtime": 5,
+            "bartering": 2,
+            "chef": 3,
+            "study": 1
+          }
+        },
+        {
+          "earnedPoints": 12,
+          "spentPoints": 12,
+          "allocation": {
+            "overtime": 5,
+            "bartering": 2,
+            "chef": 4,
+            "study": 1
+          }
+        },
+        {
+          "earnedPoints": 13,
+          "spentPoints": 13,
+          "allocation": {
+            "overtime": 5,
+            "bartering": 2,
+            "chef": 5,
+            "study": 1
+          }
+        },
+        {
+          "earnedPoints": 14,
+          "spentPoints": 14,
+          "allocation": {
+            "overtime": 5,
+            "bartering": 2,
+            "chef": 5,
+            "study": 1,
+            "lure": 1
+          }
+        },
+        {
+          "earnedPoints": 15,
+          "spentPoints": 15,
+          "allocation": {
+            "overtime": 5,
+            "bartering": 2,
+            "chef": 5,
+            "study": 1,
+            "lure": 2
+          }
+        },
+        {
+          "earnedPoints": 16,
+          "spentPoints": 16,
+          "allocation": {
+            "overtime": 5,
+            "bartering": 2,
+            "chef": 5,
+            "study": 1,
+            "lure": 2,
+            "quick": 1
+          }
+        }
+      ],
+      "finalAllocation": {
+        "overtime": 5,
+        "bartering": 2,
+        "chef": 5,
+        "study": 1,
+        "lure": 2,
+        "quick": 1
+      },
+      "validation": "Every intermediate rank satisfies max-rank, same-tree gate, named prerequisite and16-point cap checks."
+    },
+    "flightLeveling": {
+      "name": "Leveling with frequent travel",
+      "when": "Frequent flights justify reducing sustain.",
+      "order": [
+        "rested",
+        "rested",
+        "rested",
+        "rested",
+        "rested",
+        "talented",
+        "talented",
+        "talented",
+        "talented",
+        "talented",
+        "field",
+        "field",
+        "field",
+        "flier",
+        "thrill",
+        "thrill"
+      ],
+      "caveats": [
+        "Field Guide must be3/3.",
+        "20% faster flight speed means about16.7% less flight time before fixed delays."
+      ],
+      "snapshots": [
+        {
+          "earnedPoints": 0,
+          "spentPoints": 0,
+          "allocation": {}
+        },
+        {
+          "earnedPoints": 1,
+          "spentPoints": 1,
+          "allocation": {
+            "rested": 1
+          }
+        },
+        {
+          "earnedPoints": 2,
+          "spentPoints": 2,
+          "allocation": {
+            "rested": 2
+          }
+        },
+        {
+          "earnedPoints": 3,
+          "spentPoints": 3,
+          "allocation": {
+            "rested": 3
+          }
+        },
+        {
+          "earnedPoints": 4,
+          "spentPoints": 4,
+          "allocation": {
+            "rested": 4
+          }
+        },
+        {
+          "earnedPoints": 5,
+          "spentPoints": 5,
+          "allocation": {
+            "rested": 5
+          }
+        },
+        {
+          "earnedPoints": 6,
+          "spentPoints": 6,
+          "allocation": {
+            "rested": 5,
+            "talented": 1
+          }
+        },
+        {
+          "earnedPoints": 7,
+          "spentPoints": 7,
+          "allocation": {
+            "rested": 5,
+            "talented": 2
+          }
+        },
+        {
+          "earnedPoints": 8,
+          "spentPoints": 8,
+          "allocation": {
+            "rested": 5,
+            "talented": 3
+          }
+        },
+        {
+          "earnedPoints": 9,
+          "spentPoints": 9,
+          "allocation": {
+            "rested": 5,
+            "talented": 4
+          }
+        },
+        {
+          "earnedPoints": 10,
+          "spentPoints": 10,
+          "allocation": {
+            "rested": 5,
+            "talented": 5
+          }
+        },
+        {
+          "earnedPoints": 11,
+          "spentPoints": 11,
+          "allocation": {
+            "rested": 5,
+            "talented": 5,
+            "field": 1
+          }
+        },
+        {
+          "earnedPoints": 12,
+          "spentPoints": 12,
+          "allocation": {
+            "rested": 5,
+            "talented": 5,
+            "field": 2
+          }
+        },
+        {
+          "earnedPoints": 13,
+          "spentPoints": 13,
+          "allocation": {
+            "rested": 5,
+            "talented": 5,
+            "field": 3
+          }
+        },
+        {
+          "earnedPoints": 14,
+          "spentPoints": 14,
+          "allocation": {
+            "rested": 5,
+            "talented": 5,
+            "field": 3,
+            "flier": 1
+          }
+        },
+        {
+          "earnedPoints": 15,
+          "spentPoints": 15,
+          "allocation": {
+            "rested": 5,
+            "talented": 5,
+            "field": 3,
+            "flier": 1,
+            "thrill": 1
+          }
+        },
+        {
+          "earnedPoints": 16,
+          "spentPoints": 16,
+          "allocation": {
+            "rested": 5,
+            "talented": 5,
+            "field": 3,
+            "flier": 1,
+            "thrill": 2
+          }
+        }
+      ],
+      "finalAllocation": {
+        "rested": 5,
+        "talented": 5,
+        "field": 3,
+        "flier": 1,
+        "thrill": 2
+      },
+      "validation": "Every intermediate rank satisfies max-rank, same-tree gate, named prerequisite and16-point cap checks."
+    },
+    "pvpProgression": {
+      "name": "Honor and reputation progression",
+      "when": "Battleground progression is the main activity.",
+      "order": [
+        "gourmand",
+        "gourmand",
+        "gourmand",
+        "quick",
+        "quick",
+        "honor",
+        "honor",
+        "honor",
+        "honor",
+        "honor",
+        "reagents",
+        "diplomat",
+        "diplomat",
+        "diplomat",
+        "diplomat",
+        "diplomat"
+      ],
+      "caveats": [
+        "Does not improve every combat statistic.",
+        "Honor bonuses do not bypass time gates or objectives."
+      ],
+      "snapshots": [
+        {
+          "earnedPoints": 0,
+          "spentPoints": 0,
+          "allocation": {}
+        },
+        {
+          "earnedPoints": 1,
+          "spentPoints": 1,
+          "allocation": {
+            "gourmand": 1
+          }
+        },
+        {
+          "earnedPoints": 2,
+          "spentPoints": 2,
+          "allocation": {
+            "gourmand": 2
+          }
+        },
+        {
+          "earnedPoints": 3,
+          "spentPoints": 3,
+          "allocation": {
+            "gourmand": 3
+          }
+        },
+        {
+          "earnedPoints": 4,
+          "spentPoints": 4,
+          "allocation": {
+            "gourmand": 3,
+            "quick": 1
+          }
+        },
+        {
+          "earnedPoints": 5,
+          "spentPoints": 5,
+          "allocation": {
+            "gourmand": 3,
+            "quick": 2
+          }
+        },
+        {
+          "earnedPoints": 6,
+          "spentPoints": 6,
+          "allocation": {
+            "gourmand": 3,
+            "quick": 2,
+            "honor": 1
+          }
+        },
+        {
+          "earnedPoints": 7,
+          "spentPoints": 7,
+          "allocation": {
+            "gourmand": 3,
+            "quick": 2,
+            "honor": 2
+          }
+        },
+        {
+          "earnedPoints": 8,
+          "spentPoints": 8,
+          "allocation": {
+            "gourmand": 3,
+            "quick": 2,
+            "honor": 3
+          }
+        },
+        {
+          "earnedPoints": 9,
+          "spentPoints": 9,
+          "allocation": {
+            "gourmand": 3,
+            "quick": 2,
+            "honor": 4
+          }
+        },
+        {
+          "earnedPoints": 10,
+          "spentPoints": 10,
+          "allocation": {
+            "gourmand": 3,
+            "quick": 2,
+            "honor": 5
+          }
+        },
+        {
+          "earnedPoints": 11,
+          "spentPoints": 11,
+          "allocation": {
+            "gourmand": 3,
+            "quick": 2,
+            "honor": 5,
+            "reagents": 1
+          }
+        },
+        {
+          "earnedPoints": 12,
+          "spentPoints": 12,
+          "allocation": {
+            "gourmand": 3,
+            "quick": 2,
+            "honor": 5,
+            "reagents": 1,
+            "diplomat": 1
+          }
+        },
+        {
+          "earnedPoints": 13,
+          "spentPoints": 13,
+          "allocation": {
+            "gourmand": 3,
+            "quick": 2,
+            "honor": 5,
+            "reagents": 1,
+            "diplomat": 2
+          }
+        },
+        {
+          "earnedPoints": 14,
+          "spentPoints": 14,
+          "allocation": {
+            "gourmand": 3,
+            "quick": 2,
+            "honor": 5,
+            "reagents": 1,
+            "diplomat": 3
+          }
+        },
+        {
+          "earnedPoints": 15,
+          "spentPoints": 15,
+          "allocation": {
+            "gourmand": 3,
+            "quick": 2,
+            "honor": 5,
+            "reagents": 1,
+            "diplomat": 4
+          }
+        },
+        {
+          "earnedPoints": 16,
+          "spentPoints": 16,
+          "allocation": {
+            "gourmand": 3,
+            "quick": 2,
+            "honor": 5,
+            "reagents": 1,
+            "diplomat": 5
+          }
+        }
+      ],
+      "finalAllocation": {
+        "gourmand": 3,
+        "quick": 2,
+        "honor": 5,
+        "reagents": 1,
+        "diplomat": 5
+      },
+      "validation": "Every intermediate rank satisfies max-rank, same-tree gate, named prerequisite and16-point cap checks."
+    },
+    "gathererCrafter": {
+      "name": "Gatherer and crafter",
+      "when": "The character actually gathers Scarce materials and delivers crates.",
+      "order": [
+        "overtime",
+        "overtime",
+        "overtime",
+        "overtime",
+        "overtime",
+        "harvest",
+        "harvest",
+        "harvest",
+        "harvest",
+        "harvest",
+        "bartering",
+        "bartering",
+        "study",
+        "performance",
+        "performance",
+        "performance"
+      ],
+      "caveats": [
+        "Bountiful Harvest does not double all normal gathering yield."
+      ],
+      "snapshots": [
+        {
+          "earnedPoints": 0,
+          "spentPoints": 0,
+          "allocation": {}
+        },
+        {
+          "earnedPoints": 1,
+          "spentPoints": 1,
+          "allocation": {
+            "overtime": 1
+          }
+        },
+        {
+          "earnedPoints": 2,
+          "spentPoints": 2,
+          "allocation": {
+            "overtime": 2
+          }
+        },
+        {
+          "earnedPoints": 3,
+          "spentPoints": 3,
+          "allocation": {
+            "overtime": 3
+          }
+        },
+        {
+          "earnedPoints": 4,
+          "spentPoints": 4,
+          "allocation": {
+            "overtime": 4
+          }
+        },
+        {
+          "earnedPoints": 5,
+          "spentPoints": 5,
+          "allocation": {
+            "overtime": 5
+          }
+        },
+        {
+          "earnedPoints": 6,
+          "spentPoints": 6,
+          "allocation": {
+            "overtime": 5,
+            "harvest": 1
+          }
+        },
+        {
+          "earnedPoints": 7,
+          "spentPoints": 7,
+          "allocation": {
+            "overtime": 5,
+            "harvest": 2
+          }
+        },
+        {
+          "earnedPoints": 8,
+          "spentPoints": 8,
+          "allocation": {
+            "overtime": 5,
+            "harvest": 3
+          }
+        },
+        {
+          "earnedPoints": 9,
+          "spentPoints": 9,
+          "allocation": {
+            "overtime": 5,
+            "harvest": 4
+          }
+        },
+        {
+          "earnedPoints": 10,
+          "spentPoints": 10,
+          "allocation": {
+            "overtime": 5,
+            "harvest": 5
+          }
+        },
+        {
+          "earnedPoints": 11,
+          "spentPoints": 11,
+          "allocation": {
+            "overtime": 5,
+            "harvest": 5,
+            "bartering": 1
+          }
+        },
+        {
+          "earnedPoints": 12,
+          "spentPoints": 12,
+          "allocation": {
+            "overtime": 5,
+            "harvest": 5,
+            "bartering": 2
+          }
+        },
+        {
+          "earnedPoints": 13,
+          "spentPoints": 13,
+          "allocation": {
+            "overtime": 5,
+            "harvest": 5,
+            "bartering": 2,
+            "study": 1
+          }
+        },
+        {
+          "earnedPoints": 14,
+          "spentPoints": 14,
+          "allocation": {
+            "overtime": 5,
+            "harvest": 5,
+            "bartering": 2,
+            "study": 1,
+            "performance": 1
+          }
+        },
+        {
+          "earnedPoints": 15,
+          "spentPoints": 15,
+          "allocation": {
+            "overtime": 5,
+            "harvest": 5,
+            "bartering": 2,
+            "study": 1,
+            "performance": 2
+          }
+        },
+        {
+          "earnedPoints": 16,
+          "spentPoints": 16,
+          "allocation": {
+            "overtime": 5,
+            "harvest": 5,
+            "bartering": 2,
+            "study": 1,
+            "performance": 3
+          }
+        }
+      ],
+      "finalAllocation": {
+        "overtime": 5,
+        "harvest": 5,
+        "bartering": 2,
+        "study": 1,
+        "performance": 3
+      },
+      "validation": "Every intermediate rank satisfies max-rank, same-tree gate, named prerequisite and16-point cap checks."
+    }
+  },
+  "limitations": [
+    "IDs are guide-local identifiers, not asserted Blizzard TraitNode IDs.",
+    "Perk costs/ranks/gates are community-extracted client data, not official published numerical tables.",
+    "Not observed in an authenticated live client; server hotfixes may override.",
+    "Gold costs for respecs and Dual Specialization remain unverified."
+  ]
+}

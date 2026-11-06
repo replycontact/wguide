@@ -1,0 +1,277 @@
+{
+  "research_date": "2026-11-06",
+  "scope": "Human Priest Holy/healing; zero Legacy account; Blizzard WoW Forever launch1.60.1",
+  "method": "Official current changes override older guides; community client records corroborate exact talents; original tactical recommendations; no retail/Wrath baseline substituted.",
+  "sources": [
+    {
+      "id": "H01",
+      "title": "Blizzard's development notes",
+      "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/1",
+      "accessed": "2026-11-06",
+      "type": "primary_official",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": ""
+    },
+    {
+      "id": "H02",
+      "title": "Blizzard Priest deep dive",
+      "url": "https://worldofwarcraft.blizzard.com/en-gb/news/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+      "accessed": "2026-11-06",
+      "type": "primary_official",
+      "access_method": "web search and/or open",
+      "status": "search-index content available; direct open returned HTTP 403",
+      "notes": "Primary source page was located via search; source text cross-checked with current database or secondary sources. Early Priest deep dive is superseded by Nov 2 notes for Binding Heal and has Divine Grace cooldown conflict."
+    },
+    {
+      "id": "H03",
+      "title": "Heal spell record",
+      "url": "https://www.wowhead.com/forever/spell=2054/heal",
+      "accessed": "2026-11-06",
+      "type": "game_database",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": ""
+    },
+    {
+      "id": "H04",
+      "title": "Greater Heal spell record",
+      "url": "https://www.wowhead.com/forever/spell=2060/greater-heal",
+      "accessed": "2026-11-06",
+      "type": "game_database",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": ""
+    },
+    {
+      "id": "H05",
+      "title": "Flash Heal spell record",
+      "url": "https://www.wowhead.com/forever/spell=2061/flash-heal",
+      "accessed": "2026-11-06",
+      "type": "game_database",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": ""
+    },
+    {
+      "id": "H06",
+      "title": "Holy Priest abilities overview",
+      "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-abilities",
+      "accessed": "2026-11-06",
+      "type": "secondary_guide",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": ""
+    },
+    {
+      "id": "H07",
+      "title": "Holy talent data",
+      "url": "https://wowfdb.com/classes/priest/holy/talents/",
+      "accessed": "2026-11-06",
+      "type": "secondary_guide",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": "Community transcription of game data; compare launch build and official Nov 2 updates. Used for original custom build legality, not a claim of simulated optimality."
+    },
+    {
+      "id": "H08",
+      "title": "Current Priest talent records",
+      "url": "https://www.foreverdb.app/en/forever/classes/priest",
+      "accessed": "2026-11-06",
+      "type": "secondary_guide",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": "Community transcription of game data; compare launch build and official Nov 2 updates. Used for original custom build legality, not a claim of simulated optimality."
+    },
+    {
+      "id": "H09",
+      "title": "Quest record",
+      "url": "https://www.wowhead.com/forever/quest=94774/divine-grace",
+      "accessed": "2026-11-06",
+      "type": "game_database",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": ""
+    },
+    {
+      "id": "H10",
+      "title": "Current Divine Grace record",
+      "url": "https://www.wowhead.com/forever/spell=1277370/divine-grace",
+      "accessed": "2026-11-06",
+      "type": "game_database",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": "Current record says10min CD; earlier official deep dive5min. Conflict explicit, no silently preferred definitive live timing."
+    },
+    {
+      "id": "H11",
+      "title": "Downranking change explanation",
+      "url": "https://www.wowhead.com/forever/news/downranking-spells-significantly-nerfed-in-wow-forever-383285",
+      "accessed": "2026-11-06",
+      "type": "secondary_guide",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": ""
+    },
+    {
+      "id": "H12",
+      "title": "Litany of Light record and overrides",
+      "url": "https://www.wowhead.com/forever/spell=1317006/litany-of-light",
+      "accessed": "2026-11-06",
+      "type": "game_database",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": "Tooltip says20%, trait override values5/10. Guide explicitly flags discrepancy and uses current talent tables plus live tooltip verification."
+    },
+    {
+      "id": "H13",
+      "title": "Holy stat discussion",
+      "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/stat-priority-pve-healer",
+      "accessed": "2026-11-06",
+      "type": "secondary_guide",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": "Mostly level30 beta scope; stat weights/endgame optimization explicitly speculative. Recommendations retain limits."
+    },
+    {
+      "id": "H14",
+      "title": "Wowhead's level-20 Forever Holy guide",
+      "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/level-20-healer-overview",
+      "accessed": "2026-11-06",
+      "type": "secondary_guide",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": "Historical beta guide. Item source mappings used as beta-documented candidates only; stale Binding Heal and anti-rage-shield advice rejected."
+    },
+    {
+      "id": "H15",
+      "title": "Emberstone Staff record",
+      "url": "https://www.wowhead.com/forever/item=5201/emberstone-staff",
+      "accessed": "2026-11-06",
+      "type": "game_database",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": ""
+    },
+    {
+      "id": "H16",
+      "title": "Underground Assault quest record",
+      "url": "https://www.wowhead.com/forever/quest=2040/underground-assault",
+      "accessed": "2026-11-06",
+      "type": "game_database",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": ""
+    },
+    {
+      "id": "H17",
+      "title": "Level-30 equipment evidence",
+      "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/level-30-healer-overview",
+      "accessed": "2026-11-06",
+      "type": "secondary_guide",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": "Historical beta guide. Item source mappings used as beta-documented candidates only; stale Binding Heal and anti-rage-shield advice rejected."
+    },
+    {
+      "id": "H18",
+      "title": "Phase-one Holy gear page",
+      "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/bis-gear",
+      "accessed": "2026-11-06",
+      "type": "secondary_guide",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": "Page explicitly has placeholder gear and uncertain beta tier bonuses. Evidence for limitations, not verified best-in-slot items."
+    },
+    {
+      "id": "H19",
+      "title": "the profession overview",
+      "url": "https://www.wowhead.com/forever/guide/professions/overview",
+      "accessed": "2026-11-06",
+      "type": "secondary_guide",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": ""
+    },
+    {
+      "id": "H20",
+      "title": "Forever Alchemy overview",
+      "url": "https://www.wowhead.com/forever/guide/professions/alchemy-overview-trainer-locations-recipes",
+      "accessed": "2026-11-06",
+      "type": "secondary_guide",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": ""
+    },
+    {
+      "id": "H21",
+      "title": "Enchanting overview",
+      "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
+      "accessed": "2026-11-06",
+      "type": "secondary_guide",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": ""
+    },
+    {
+      "id": "H22",
+      "title": "First Aid overview",
+      "url": "https://www.wowhead.com/forever/guide/professions/first-aid/overview",
+      "accessed": "2026-11-06",
+      "type": "secondary_guide",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": ""
+    },
+    {
+      "id": "H23",
+      "title": "wand-sale nerf report",
+      "url": "https://www.wowhead.com/news/no-more-easy-money-with-enchanting-flips-in-wow-forever-sell-cost-nerfed-383224",
+      "accessed": "2026-11-06",
+      "type": "secondary_guide",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": ""
+    },
+    {
+      "id": "H24",
+      "title": "Holy leveling enchants",
+      "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/enchants-consumables-pve-healer",
+      "accessed": "2026-11-06",
+      "type": "secondary_guide",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": "Mostly level30 beta scope; stat weights/endgame optimization explicitly speculative. Recommendations retain limits."
+    },
+    {
+      "id": "H25",
+      "title": "Insight spell and materials",
+      "url": "https://www.wowhead.com/forever/spell=1248757/enchant-weapon-insight",
+      "accessed": "2026-11-06",
+      "type": "game_database",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": ""
+    },
+    {
+      "id": "H26",
+      "title": "Official camping introduction",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24301516/versammelt-euch-in-world-of-warcraft-forever-um-das-lagerfeuer",
+      "accessed": "2026-11-06",
+      "type": "primary_official",
+      "access_method": "web search and/or open",
+      "status": "search-index content available; direct open returned HTTP 403",
+      "notes": "Primary source page was located via search; source text cross-checked with current database or secondary sources. Early Priest deep dive is superseded by Nov 2 notes for Binding Heal and has Divine Grace cooldown conflict."
+    },
+    {
+      "id": "H27",
+      "title": "Forever Holy macro reference",
+      "url": "https://wowfdb.com/classes/priest/holy/macros/",
+      "accessed": "2026-11-06",
+      "type": "secondary_guide",
+      "access_method": "web search and/or open",
+      "status": "accessed",
+      "notes": "Source marks templates untested. Draft provides original related secure macro templates and explains failure modes; no live-client verification claimed."
+    }
+  ]
+}

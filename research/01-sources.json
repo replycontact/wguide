@@ -1,0 +1,173 @@
+{
+  "checkedAt": "2026-11-06",
+  "chapter": "01-systems.md",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Blizzard, New Player\u2019s Starter Guide, 28 October 2026",
+      "url": "https://news.blizzard.com/en-gb/article/24315280/new-players-starter-guide-welcome-to-world-of-warcraft-forever",
+      "accessed": "2026-11-06",
+      "evidence": "official-announcement-or-notes",
+      "notes": "subscription, presets, rulesets, grouping boundaries."
+    },
+    {
+      "id": "S02",
+      "title": "Blizzard, Get to Know the Legacy System, 23 September 2026",
+      "url": "https://worldofwarcraft.blizzard.com/en-gb/news/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
+      "accessed": "2026-11-06",
+      "evidence": "official-announcement-or-notes",
+      "notes": "official account model, challenge categories, cap, initial unlock and Hardcore direction."
+    },
+    {
+      "id": "S03",
+      "title": "Blizzard, Rogue and Warlock class deep dive",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "accessed": "2026-11-06",
+      "evidence": "official-announcement-or-notes",
+      "notes": "ordinary talent start, new milestone, trainer changes, dual specialization at 40."
+    },
+    {
+      "id": "S04",
+      "title": "SenseOS, Legacy system, updated 5 November 2026",
+      "url": "https://senseos.gg/guides/wow-forever/legacy-system/",
+      "accessed": "2026-11-06",
+      "evidence": "secondary-guide",
+      "notes": "challenge breakdown and launch-client framing; explicitly says it had not yet observed the live Legacy window. Used with that limitation."
+    },
+    {
+      "id": "S05",
+      "title": "Blizzard, Forever Now Live, 4 November 2026",
+      "url": "https://worldofwarcraft.blizzard.com/en-gb/news/24315820/world-of-warcraft-forever-goes-live-globally-4-november",
+      "accessed": "2026-11-06",
+      "evidence": "official-announcement-or-notes",
+      "notes": "level-60 launch game and December 9 raid schedule."
+    },
+    {
+      "id": "S06",
+      "title": "Wowhead, How Do Legacy Points Work, 22 September 2026",
+      "url": "https://www.wowhead.com/news/how-do-legacy-points-work-in-wow-forever-383029",
+      "accessed": "2026-11-06",
+      "evidence": "secondary-guide",
+      "notes": "Thrill trigger, values, exclusions; older article's general profession wording requires the official non-gathering qualification."
+    },
+    {
+      "id": "S07",
+      "title": "Forever Atlas, Legacy tree, data snapshot 1.60.1.70170",
+      "url": "https://wowforevercompass.com/legacy/",
+      "accessed": "2026-11-06",
+      "evidence": "client-database",
+      "notes": "Talented prerequisite and rank behavior; checked against S08 and S09's newer data."
+    },
+    {
+      "id": "S08",
+      "title": "WoW-Forever.gg, Adventure tree, build 1.60.1.70790",
+      "url": "https://wow-forever.gg/legacy/adventure/",
+      "accessed": "2026-11-06",
+      "evidence": "client-database",
+      "notes": "current extracted ranks, Well Rested, Talented cap, Adventure gates."
+    },
+    {
+      "id": "S09",
+      "title": "stillsixty, Legacy planner",
+      "url": "https://www.stillsixty.com/legacy",
+      "accessed": "2026-11-06",
+      "evidence": "client-database",
+      "notes": "Field Guide 3/3 requirement for Frequent Flier and numerical travel effects, corroborated by S08."
+    },
+    {
+      "id": "S10",
+      "title": "WoW-Forever.gg, Resourcefulness tree, build 1.60.1.70790",
+      "url": "https://wow-forever.gg/legacy/resourcefulness/",
+      "accessed": "2026-11-06",
+      "evidence": "client-database",
+      "notes": "rank totals and prerequisite gates for the resource/PvP example."
+    },
+    {
+      "id": "S11",
+      "title": "WoW-Forever.gg, Professions tree, build 1.60.1.70790",
+      "url": "https://wow-forever.gg/legacy/professions/",
+      "accessed": "2026-11-06",
+      "evidence": "client-database",
+      "notes": "rank limits and gates for profession example, Scarce wording, Dedicated Study condition."
+    },
+    {
+      "id": "S12",
+      "title": "Blizzard beta development notes, thread updated 2 November 2026",
+      "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/1",
+      "accessed": "2026-11-06",
+      "evidence": "official-announcement-or-notes",
+      "notes": "beta-only respec distinction and dated tuning history; do not treat beta price as launch price."
+    },
+    {
+      "id": "S13",
+      "title": "Same official notes, October 26 racial tuning within thread",
+      "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/1",
+      "accessed": "2026-11-06",
+      "evidence": "official-announcement-or-notes",
+      "notes": "Human Spirit 10%, Ruthless 1%."
+    },
+    {
+      "id": "S14",
+      "title": "Icy Veins, Human race guide",
+      "url": "https://www.icy-veins.com/wow-forever/human-race-guide",
+      "accessed": "2026-11-06",
+      "evidence": "secondary-guide",
+      "notes": "Human active racials and current passive overview; secondary source."
+    },
+    {
+      "id": "S15",
+      "title": "Blizzard, Priest and Warrior class deep dive, 30 September 2026",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+      "accessed": "2026-11-06",
+      "evidence": "official-announcement-or-notes",
+      "notes": "racial design and Divine Grace target restrictions; its five-minute cooldown conflicts with current spell data."
+    },
+    {
+      "id": "S16",
+      "title": "Wowhead Forever, Divine Grace spell 1277370",
+      "url": "https://www.wowhead.com/forever/spell=1277370/divine-grace",
+      "accessed": "2026-11-06",
+      "evidence": "client-database",
+      "notes": "ten-minute cooldown, level 10, ally below half health, no self-cast, Weakened Soul removal."
+    },
+    {
+      "id": "S17",
+      "title": "Forever Mastery, Human race",
+      "url": "https://forevermastery.com/en/races/human",
+      "accessed": "2026-11-06",
+      "evidence": "secondary-guide",
+      "notes": "Human racial spell availability and Feedback framing, secondary client-reference source."
+    },
+    {
+      "id": "S18",
+      "title": "Questing.wiki, Priest",
+      "url": "https://questing.wiki/wow-forever/classes/priest/",
+      "accessed": "2026-11-06",
+      "evidence": "secondary-guide",
+      "notes": "current Priest access overview, corroborated by official class deep dive."
+    },
+    {
+      "id": "S19",
+      "title": "Blizzard, Gather Around the Campfire, 21 October 2026",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24301516/",
+      "accessed": "2026-11-06",
+      "evidence": "official-announcement-or-notes",
+      "notes": "shared camping framework, feature participation, mutually exclusive buffs."
+    },
+    {
+      "id": "S20",
+      "title": "Method, Camping in Forever",
+      "url": "https://www.method.gg/wow-forever/camping-in-wow-forever-how-it-all-works-all-profession-buffs",
+      "accessed": "2026-11-06",
+      "evidence": "secondary-guide",
+      "notes": "introductory quest around level 5 and practical campfire learning sequence."
+    }
+  ],
+  "limitations": [
+    "No authenticated live-game observation performed.",
+    "Some official pages returned403 on open but indexed search returned full relevant official text.",
+    "Divine Grace official announcement5min conflicts with current-client10min.",
+    "No reliable launch reset/unlock gold-price confirmation.",
+    "Perk prerequisites are extracted client evidence, not official published tables."
+  ]
+}

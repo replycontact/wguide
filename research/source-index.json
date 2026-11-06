@@ -1,0 +1,269 @@
+{
+  "audit_date": "2026-11-06",
+  "scope": "Official Blizzard sources for a detailed World of Warcraft: Forever Human Priest guide",
+  "sources": [
+    {
+      "id": "priest_deep_dive",
+      "title": "World of Warcraft: Forever Class Deep Dives \u2014 Priest and Warrior",
+      "publisher": "Blizzard Entertainment",
+      "published": "2026-09-30",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514/",
+      "primary": true,
+      "supports": [
+        "Human Priest Divine Grace and Feedback",
+        "Priest baseline spells and learning levels",
+        "Priest talent changes",
+        "talent respec location",
+        "dual specialization level",
+        "beta-change caveat"
+      ],
+      "excludes": [
+        "official spec ranking",
+        "optimal build",
+        "rotation",
+        "Human general racial trait catalog"
+      ]
+    },
+    {
+      "id": "race_class_overview",
+      "title": "Create the Hero You Want to Be in World of Warcraft: Forever",
+      "publisher": "Blizzard Entertainment",
+      "published": "2026-09-22",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24304075/",
+      "primary": true,
+      "supports": [
+        "newly opened race/class combinations",
+        "statement that some racial traits were updated"
+      ],
+      "excludes": [
+        "detailed Human racial trait values",
+        "Human Priest race ranking"
+      ]
+    },
+    {
+      "id": "forever_deep_dive",
+      "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+      "publisher": "Blizzard Entertainment",
+      "published": "2026-09-13",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24303313/",
+      "primary": true,
+      "supports": [
+        "Classic-minded talent tree structure",
+        "new 16-point milestone",
+        "some class buffs made baseline",
+        "design and system changes",
+        "realmless direction"
+      ],
+      "excludes": [
+        "definitive final tuning after beta",
+        "Human Priest guide build"
+      ]
+    },
+    {
+      "id": "legacy_system",
+      "title": "Get to Know the World of Warcraft: Forever Legacy System",
+      "publisher": "Blizzard Entertainment",
+      "published": "2026-09-23",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24307383/",
+      "primary": true,
+      "supports": [
+        "Legacy system parts",
+        "access triggers",
+        "launch cap of 16 spendable points per character",
+        "account-wide vs character-specific distinction"
+      ],
+      "excludes": [
+        "claim that every perk is account-wide",
+        "class build ranking"
+      ]
+    },
+    {
+      "id": "camping_professions",
+      "title": "Gather Around the Campfire in World of Warcraft: Forever",
+      "publisher": "Blizzard Entertainment",
+      "published": "2026-10-21",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24301516/",
+      "primary": true,
+      "supports": [
+        "profession slots and list",
+        "Camping system",
+        "camp feature conditions/cooldown",
+        "Priest-relevant Stamina, Spirit and Mana camp features"
+      ],
+      "excludes": [
+        "permanent or passive camp buffs",
+        "camp buffs stack when article marks mutually exclusive"
+      ]
+    },
+    {
+      "id": "pvp_progression",
+      "title": "How PvP Progression in World of Warcraft: Forever Works",
+      "publisher": "Blizzard Entertainment",
+      "published": "2026-10-07",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316/",
+      "primary": true,
+      "supports": [
+        "Honor and Rank Points",
+        "weekly rank cap",
+        "rewards and PvP season tasks",
+        "three Legacy Point tasks per season"
+      ],
+      "excludes": [
+        "Human Priest PvP tier list",
+        "class-specific performance comparison"
+      ]
+    },
+    {
+      "id": "rulesets",
+      "title": "Choose Your Ruleset in World of Warcraft: Forever",
+      "publisher": "Blizzard Entertainment",
+      "published": "2026-09-21",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24302070/",
+      "primary": true,
+      "supports": [
+        "ruleset instead of traditional realm selection",
+        "planned PvP faction balance interventions"
+      ],
+      "excludes": [
+        "guaranteed faction creation availability"
+      ]
+    },
+    {
+      "id": "starter_guide",
+      "title": "New Player\u2019s Starter Guide: Welcome to World of Warcraft: Forever",
+      "publisher": "Blizzard Entertainment",
+      "published": "2026-10-28",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315280/",
+      "primary": true,
+      "supports": [
+        "launch rulesets",
+        "Hardcore later",
+        "grouping restricted by faction and ruleset",
+        "PvP / RP differences"
+      ],
+      "excludes": [
+        "current Hardcore availability without rechecking later official source"
+      ]
+    },
+    {
+      "id": "roadmap",
+      "title": "World of Warcraft: Forever What\u2019s Next Panel Recap",
+      "publisher": "Blizzard Entertainment",
+      "published": "2026-09-12",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24303862/",
+      "primary": true,
+      "supports": [
+        "announced launch and raid dates",
+        "roadmap sequencing"
+      ],
+      "excludes": [
+        "undated roadmap items as confirmed dates"
+      ]
+    },
+    {
+      "id": "launch_live",
+      "title": "World of Warcraft: Forever Goes Live Globally November 4!",
+      "publisher": "Blizzard Entertainment",
+      "published": "2026-11-04",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315820/",
+      "primary": true,
+      "supports": [
+        "launched status",
+        "ruleset model",
+        "current launch feature recap",
+        "December 9 raids",
+        "nine new dungeons"
+      ],
+      "excludes": [
+        "future roadmap beyond what is explicitly dated"
+      ]
+    },
+    {
+      "id": "return_to_azeroth",
+      "title": "Return to Azeroth in World of Warcraft: Forever",
+      "publisher": "Blizzard Entertainment",
+      "published": "2026-10-29",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+      "primary": true,
+      "supports": [
+        "Darkspear Islands battleground size, level range and victory condition",
+        "ruleset recap",
+        "PvP overview"
+      ],
+      "excludes": [
+        "Human Priest matchup performance"
+      ]
+    },
+    {
+      "id": "latest_blizzard_beta_notes",
+      "title": "WoW Forever Beta Development Notes \u2013 Updated November 2",
+      "publisher": "Blizzard Entertainment / Kaivax",
+      "published": "2026-11-02 (thread updated through Nov 2; beta notes)",
+      "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/1",
+      "primary": true,
+      "supports": [
+        "Human Ruthless +1% crit (was 2%)",
+        "Human Spirit +10% Spirit (was 5%)",
+        "Shadow Word: Death backlash now 30% max HP and no backlash on miss",
+        "Binding Heal removed and Holy Binding inserted",
+        "latest publicly documented beta changes"
+      ],
+      "excludes": [
+        "guarantee no subsequent launch hotfixes",
+        "final design status absent a later live patch note"
+      ]
+    },
+    {
+      "id": "legacy_current_client_foreverguide",
+      "title": "WoW Forever Legacy Calculator and Points Tracker",
+      "publisher": "Forever Guide (unofficial; client-data extraction)",
+      "published": "checked 2026-11-05; game client build 1.60.1.70790",
+      "url": "https://foreverguide.net/systems/legacy/",
+      "primary": false,
+      "supports": [
+        "one Legacy Point per rank",
+        "16 per-character spend cap",
+        "5/10 tree point gates",
+        "perk ranks and effects from latest client build",
+        "Talented 5 ranks, 5 Adventure points and Well Rested max prerequisite"
+      ],
+      "excludes": [
+        "official Blizzard-endorsed recommendation",
+        "ambiguous node prerequisites beyond what its guide explicitly maps"
+      ]
+    },
+    {
+      "id": "legacy_current_client_zephras",
+      "title": "Legacy calculator \u2014 WoW Forever",
+      "publisher": "Zephras (unofficial; client-data extraction)",
+      "published": "current as of 2026-11-06; game client build 1.60.1.70790",
+      "url": "https://zephras.com/forever/enUS/talents/legacy/",
+      "primary": false,
+      "supports": [
+        "cross-check for one point per rank",
+        "16 point cap",
+        "5/10 tree gates",
+        "node prerequisites from client files"
+      ],
+      "excludes": [
+        "official Blizzard-endorsed recommendation",
+        "prerequisite rank details where not directly represented in text"
+      ]
+    },
+    {
+      "id": "legacy_current_client_metabot",
+      "title": "WoW Forever Legacy Tree Planner: All 21 Perks",
+      "publisher": "MetaBot.GG (unofficial; client-data extraction)",
+      "published": "current as of 2026-11-06; game client build 1.60.1.70790",
+      "url": "https://metabot.gg/en/wow-forever/legacy/tree-planner",
+      "primary": false,
+      "supports": [
+        "cross-check for parent-node prerequisites including Reagent Economy needing The Quick and the Dead",
+        "perks and ranks"
+      ],
+      "excludes": [
+        "official Blizzard-endorsed recommendation"
+      ]
+    }
+  ]
+}

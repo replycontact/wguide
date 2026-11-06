@@ -1,0 +1,122 @@
+[
+  {
+    "id": "start",
+    "title": "A fresh Human Priest",
+    "kicker": "Begin from zero",
+    "description": "Your first choices, the Human toolkit, and the habits that make a fresh account work.",
+    "group": "The first character",
+    "markdown": "content/01-start.md"
+  },
+  {
+    "id": "legacy",
+    "title": "The account plan",
+    "kicker": "Legacy points",
+    "description": "Earn useful milestones, spend each point deliberately, and distinguish your first Priest from a funded alt.",
+    "group": "The first character",
+    "markdown": "content/02-legacy.md"
+  },
+  {
+    "id": "fieldcraft",
+    "title": "Travel, camps & gold",
+    "kicker": "A sustainable journey",
+    "description": "Keep travel, camp benefits and gold decisions aligned with the character you are actually playing.",
+    "group": "The first character",
+    "markdown": "content/03-fieldcraft.md"
+  },
+  {
+    "id": "shadow",
+    "title": "The Shadow leveling build",
+    "kicker": "Point by point",
+    "description": "One continuous, zero-Legacy route to 14/0/37, with every milestone and tradeoff explained.",
+    "group": "Shadow & solo play",
+    "markdown": "content/04-shadow.md"
+  },
+  {
+    "id": "combat",
+    "title": "The solo combat playbook",
+    "kicker": "Pull, recover, repeat",
+    "description": "Build a sustainable fighting rhythm from your first wand through Shadowform and harder pulls.",
+    "group": "Shadow & solo play",
+    "markdown": "content/05-combat.md"
+  },
+  {
+    "id": "leveling",
+    "title": "Northshire to level 60",
+    "kicker": "The Human route",
+    "description": "A flexible Alliance itinerary that adapts to new quests, your level and the opportunities you find.",
+    "group": "Shadow & solo play",
+    "markdown": "content/06-leveling.md"
+  },
+  {
+    "id": "holy",
+    "title": "The healing spellbook",
+    "kicker": "Make the right cast",
+    "description": "Understand what each heal solves, prepare for your first group, and use your Human tools correctly.",
+    "group": "Holy & group play",
+    "markdown": "content/07-holy.md"
+  },
+  {
+    "id": "holy-builds",
+    "title": "Building your Holy Priest",
+    "kicker": "Talent investment",
+    "description": "A legal 20/31/0 foundation, its exact leveling order, and the cost of reaching Holy milestones sooner.",
+    "group": "Holy & group play",
+    "markdown": "content/08-holy-builds.md"
+  },
+  {
+    "id": "healing",
+    "title": "Healing under pressure",
+    "kicker": "Decisions & practice",
+    "description": "Manage mana and spell ranks, solve twelve common emergencies, and prepare for organized healing.",
+    "group": "Holy & group play",
+    "markdown": "content/09-healing.md"
+  },
+  {
+    "id": "equipment",
+    "title": "Gear that earns its place",
+    "kicker": "Upgrade with purpose",
+    "description": "Choose equipment for the problem it solves, with practical targets and honest limits on launch BiS claims.",
+    "group": "Equipment & economy",
+    "markdown": "content/10-equipment.md"
+  },
+  {
+    "id": "professions",
+    "title": "Professions & preparation",
+    "kicker": "Build a useful account",
+    "description": "Balance your first gold, healer crafts, account milestones, enchants, consumables and camp supplies.",
+    "group": "Equipment & economy",
+    "markdown": "content/11-professions.md"
+  },
+  {
+    "id": "pvp",
+    "title": "Shadow & Holy in PvP",
+    "kicker": "Control the next moment",
+    "description": "Legal builds and matchup decisions for damage, support, survival and pressure as a Human Priest.",
+    "group": "Player versus player",
+    "markdown": "content/12-pvp.md"
+  },
+  {
+    "id": "battlegrounds",
+    "title": "Objectives & PvP progression",
+    "kicker": "Play for the win",
+    "description": "Turn class tools into objective control, understand the progression system, and build a repeatable practice.",
+    "group": "Player versus player",
+    "markdown": "content/13-battlegrounds.md"
+  },
+  {
+    "id": "macros",
+    "title": "Controls & macros",
+    "kicker": "A usable interface",
+    "description": "Put lifesaving actions within reach and adapt the clearly marked macro templates to your live client.",
+    "group": "Reference",
+    "markdown": "content/14-macros.md"
+  },
+  {
+    "id": "sources",
+    "title": "Sources & live checks",
+    "kicker": "Research notes",
+    "description": "The launch snapshot, evidence hierarchy, unresolved conflicts, and the sources behind this guide.",
+    "group": "Reference",
+    "markdown": "content/15-sources.md"
+  }
+]

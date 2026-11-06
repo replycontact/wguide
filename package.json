@@ -1,0 +1,13 @@
+{
+  "name": "wguide-human-priest",
+  "private": true,
+  "version": "1.0.0",
+  "description": "An offline-first WoW Forever Human Priest field guide",
+  "scripts": {
+    "build": "python scripts/compile_content.py && python scripts/build_pdf.py && python scripts/build_site.py",
+    "test": "python scripts/validate.py && node --test tests/*.test.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "^31.0.0"
+  }
+}
